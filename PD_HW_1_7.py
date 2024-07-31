@@ -1,10 +1,10 @@
 grades = [[5, 3, 3, 5, 4], [2, 2, 2, 3], [4, 5, 5, 2], [4, 4, 3], [5, 5, 5, 4, 5]]
 students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
-print('Список оценок:', grades)
-print('Множество учеников:', students)
+# print('Список оценок:', grades)
+# print('Множество учеников:', students)
 students_list = list(students)
 st_list_s = sorted(students_list)
-print('Список учеников:', st_list_s)
+# print('Список учеников:', st_list_s)
 av_grade_1 = sum(grades[0][0:])/len(grades[0])
 # print(len(grades[0]))
 # print(av_grade_1)
